@@ -1,0 +1,101 @@
+table, th, td {
+  border: 1px solid blue;
+  padding: 10px;
+  }
+  table.center {
+    width:70%;
+  margin-left:15%;
+  margin-right:15%;
+  }
+
+a{
+font-style:italic;
+font-weight: bold;
+}
+.History:hover, .Climate:hover, a:hover{
+  background-color: lightyellow;
+}
+header {
+  position: relative;
+  background-color: lightyellow;
+  height: 75vh;
+  min-height: 25rem;
+  width: 97%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+}
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+h1, h2, h3, #Climate, #History {
+  text-align: center;
+  color:green;
+  font-weight: bold;
+}
+
+h3  {
+  text-align: left;
+}
+.row h3{
+      text-align: center;
+       }
+@media (min-width: 690px){
+    header, body, footer, p.AddMargin{
+        font-family: Arial;
+        background-color: lightblue;
+        font-size: 28px;
+        margin:20px;
+      }
+      h3{
+      font-size:40px;
+      }
+      h2{
+        font-size:40px;
+      }
+}
+@media (max-width: 600px){
+    header, body, footer, p.AddMargin{
+        font-family: Arial;
+        background-color:red;
+        font-size: 24px;
+        margin : 12px;
+      }
